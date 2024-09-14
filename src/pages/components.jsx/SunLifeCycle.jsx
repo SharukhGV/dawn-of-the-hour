@@ -19,7 +19,7 @@ const SunLifeCycle = () => {
       <h2 style={{ color: '#1a237e', paddingBottom: '10px' }}>The Sun's Life Cycle and Current Solar Activity</h2>
       <p>'When the sun is wrapped up [in darkness]'</p>
       <p>Surah At-Takwir Verse 2</p>
-      <section style={{border:"solid", borderColor:"gray"}}>
+      <section style={{border:"solid", borderColor:"gray", padding:"15px"}}>
         <strong style={{ color: '#303f9f' }}>Will the Sun Lose Its Shimmer?</strong>
         <p>
           Yes, the Sun will eventually lose its shimmer, but this process will take billions of years according to scientists. The Sun is currently
@@ -28,7 +28,7 @@ const SunLifeCycle = () => {
         </p>
       </section>
 <br></br>
-      <section style={{border:"solid", borderColor:"orange"}}>
+      <section style={{border:"solid", borderColor:"orange", padding:"15px"}}>
         <strong style={{ color: '#303f9f' }}>The Phases of the Sun's Life Cycle:</strong>
         <br></br>
         <img style={{maxWidth:"300px",border:"solid"}} src={hrdiagram}></img>
@@ -50,7 +50,7 @@ const SunLifeCycle = () => {
         </ul>
       </section>
       <br></br>
-      <section style={{border:"solid", borderColor:"orange"}}>
+      <section style={{border:"solid", borderColor:"orange", padding:"15px"}}>
       <h3 style={{ color: '#303f9f' }}>What is the Solar Maximum</h3>
 
 <p>Solar maximums occur due to the Sun's complex magnetic field dynamics, which go through an approximately 11-year cycle. During a solar maximum, heightened solar activity happens because the Sun's magnetic field becomes highly distorted and tangled, causing an increase in sunspots, solar flares, and coronal mass ejections (CMEs). As the Sun’s magnetic field lines twist and reconnect, this intense magnetic activity releases enormous amounts of energy, leading to more frequent and powerful solar events. The heightened activity also results from the Sun reversing its magnetic poles at the peak of the cycle, further driving disruptions and increasing solar emissions. These fluctuations contribute to more intense radiation, influencing space weather and sometimes affecting Earth’s magnetic environment.</p>
