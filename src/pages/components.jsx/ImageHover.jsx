@@ -161,6 +161,7 @@ const ImageHover = () => {
               width:"150px",
               height:"150px",
               borderColor:"darkgreen",
+              backgroundColor:"lightblue",
               opacity: earthquakehover ? 0.2 : 1,
             }} 
           />
