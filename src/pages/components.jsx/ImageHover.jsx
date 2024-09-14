@@ -157,6 +157,10 @@ const ImageHover = () => {
             style={{
               ...imageStyle,
               borderRadius: "50%",
+              border:"solid",
+              width:"150px",
+              height:"150px",
+              borderColor:"darkgreen",
               opacity: earthquakehover ? 0.2 : 1,
             }} 
           />
