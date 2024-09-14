@@ -153,6 +153,8 @@ function MagneticPoleAnomaly(){
     <p>Some researchers have proposed that geomagnetic reversals or disturbances may have contributed to environmental instability during this period. There is evidence of increased volcanism, which is sometimes correlated with changes in the geomagnetic field. The mantle plume activity that caused the volcanic eruptions might have disturbed the magnetic field, but this is not seen as the primary extinction driver.</p>
 </div>
    </div>
+
+   <em class="citation"> National Centers for Environmental Information. "Wandering of the Geomagnetic Poles." National Oceanic and Atmospheric Administration, U.S. Department of Commerce, accessed 14 Sep. 2024, www.ncei.noaa.gov/products/wandering-geomagnetic-poles. </em> 
     </div>
   );
 };
