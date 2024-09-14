@@ -5,13 +5,14 @@ import sun from "../../assets/sun.png"
 import moon1 from "../../assets/moon1.png"
 import earth from "../../assets/earth.png"
 import earthlayers from "../../assets/earthlayers.png"
-
+import earthquake from "../../assets/earthquake.png"
 const ImageHover = () => {
   const [isGeologicHovered, setIsGeologicHovered] = useState(false);
   const [isSolarHovered, setIsSolarHovered] = useState(false);
   const [isLunarHovered, setIsLunarHovered] = useState(false);
   const [isEarthHovered, setIsEarthHovered] = useState(false);
   const [isEarthROTHovered, setIsEarthROTHovered] = useState(false);
+  const [earthquakehover, setEarthquakehover] = useState(false);
 
   const imageStyle = {
     maxWidth: "150px",
@@ -142,6 +143,28 @@ const ImageHover = () => {
             opacity: isEarthROTHovered ? 1 : 0,
           }}>
             Earth Rotation
+          </div>
+        </Link>
+      </div>
+
+      <div style={containerStyle}
+           onMouseEnter={() => setEarthquakehover(true)}
+           onMouseLeave={() => setEarthquakehover(false)}>
+        <Link to="/earthquakes">
+          <img 
+            src={earthquake} 
+            alt="earthquakes" 
+            style={{
+              ...imageStyle,
+              borderRadius: "50%",
+              opacity: earthquakehover ? 0.2 : 1,
+            }} 
+          />
+          <div style={{
+            ...textStyle,
+            opacity: earthquakehover ? 1 : 0,
+          }}>
+            Earthquakes
           </div>
         </Link>
       </div>

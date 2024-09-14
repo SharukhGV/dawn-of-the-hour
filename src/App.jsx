@@ -8,6 +8,7 @@ import SunLifeCycle from './pages/components.jsx/SunLifeCycle';
 import MoonquakeInfo from './pages/components.jsx/MoonquakeInfo';
 import ReversingCore from './pages/components.jsx/ReversingCore';
 import EarthRotationSpeed from './pages/components.jsx/EarthRotationSpeed';
+import Earthquake from './pages/Earthquake';
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
     <Route path="/mooninfo" element={<MoonquakeInfo/>} />
     <Route path="/earthinfo" element={<ReversingCore/>} />
     <Route path="/earthrotation" element={<EarthRotationSpeed/>} />
+    <Route path="/earthquakes" element={<Earthquake/>} />
 
 
     {/* <Route path="/*" element={<NotFound />} /> */}
