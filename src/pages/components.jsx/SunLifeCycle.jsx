@@ -24,7 +24,7 @@ const SunLifeCycle = () => {
         <p>
           Yes, the Sun will eventually lose its shimmer, but this process will take billions of years according to scientists. The Sun is currently
           in its <strong>Main Sequence</strong> phase, where it shines by converting hydrogen into helium through nuclear fusion. This will continue for
-          another 5 billion years. However, data is showing anomalies everywhere within the earth, on the earth, on the moon, and of our very own Sun...
+          another 5 billion years. However, data is showing anomalies everywhere within the earth, on the earth, on the moon, and on our very own Sun...
         </p>
       </section>
 <br></br>
