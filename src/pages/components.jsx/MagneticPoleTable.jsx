@@ -70,7 +70,7 @@ const MagneticPoleTable = () => {
   };
 
   return (
-    <div className="magnetic-pole-table">
+    <div style={{backgroundColor:"white",border:"solid", borderColor:"green"}} className="magnetic-pole-table">
       <h2>Magnetic Pole Shifts and Distances Moved</h2>
       <table>
         <thead>

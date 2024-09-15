@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom';
 import innerearth from "../../assets/innerearth.png"
 const ReversingCore = () => {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+    <div>
         <Link to="/">Home</Link>
 
       <h2>Earth's Inner Core Movement</h2>
+    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif',backgroundColor:"white", borderRadius:"10px", borderColor:"orange",border:"solid" }}>
 
       <img style={{maxWidth:"450px"}} src={innerearth}></img>
       <br></br>
       <em>The inner core began to decrease its speed around 2010, moving slower than the Earth’s surface. <a href="https://today.usc.edu/usc-study-confirms-the-rotation-of-earths-inner-core-has-slowed/">(USC Graphic/Edward Sotelo)</a></em>
       <br></br>
       <br></br>
-      <div style={{border:"solid", borderColor:"gray"}}>
+      <div>
       <p>
         The inner core is considered to be reversing and backtracking relative to the planet’s surface due to moving
         slightly slower instead of faster than the Earth’s mantle for the first time in approximately 40 years. Relative
@@ -31,7 +32,7 @@ const ReversingCore = () => {
         </a>"USC Study Confirms the Rotation of Earth’s Inner Core Has Slowed."</em> 
         , accessed September 13th, 2024.
       </p>
-    </div></div>
+    </div></div></div>
   );
 };
 

@@ -7,8 +7,8 @@ const MoonquakeInfo = () => {
    <h2>Moon's Shrinkage and Moonquakes</h2>
 <p>And the moon we have ordained for it phases until it returns like the old (withered) date stalk </p>
 <p>Quran Surah Yasin verse 39</p>
-    <div style={{border:"solid", borderColor:"blue", padding:"15px"}} className="moonquake-info">
-<img style={{maxWidth:"300px", border:"solid"}} src={smithsonianmoonimage}></img>
+    <div style={{border:"solid", borderColor:"blue", padding:"15px", borderRadius:"10px", backgroundColor:"white"}} className="moonquake-info">
+<img style={{maxWidth:"300px", border:"solid", borderRadius:"10px"}} src={smithsonianmoonimage}></img>
 <br></br>
 <em>Smithsonian Magazine: NASA’s Lunar Reconnaissance Orbiter found these thrust faults near the moon’s south pole. T. R. Watters et al., The Planetary Science Journal, 2024, under CC BY 4.0 DEED</em>
 

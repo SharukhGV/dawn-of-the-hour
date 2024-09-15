@@ -97,14 +97,17 @@ function MagneticPoleAnomaly(){
 
       <h2>Magnetic Pole Anomaly</h2>
       
-<div style={{border:"solid", borderColor:"blue", padding:"15px"}}>
+<div style={{backgroundColor:"white",border:"solid", borderColor:"green", borderRadius:"10px", padding:"15px"}}>
       <canvas ref={chartRef} />
       <p style={{color:'darkmagenta'}}>Current North Magnetic Pole (2020): 86°N, 86°W</p>
       <p style={{color:'blue'}}>Current South Magnetic Pole (2020): 64°S, 137°E</p>
-<MagneticPoleTable/>
 </div>
 <br></br>
-<div style={{border:"solid" , borderColor:"blue"}}>
+<br></br>
+<MagneticPoleTable/>
+
+<br></br>
+<div style={{backgroundColor:"white",border:"solid", borderColor:"green", borderRadius:"10px",padding:"15px"}}>
 
 <div>
     <p><strong>Field Weakening:</strong></p>
@@ -122,7 +125,7 @@ function MagneticPoleAnomaly(){
 </div>
 </div>
 <br></br>
-<div style={{border:"solid", borderColor:"orange"}}>
+<div style={{backgroundColor:"white",border:"solid", borderColor:"orange", borderRadius:"10px",padding:"15px"}}>
   <div >
     <p><strong>Paleomagnetism: What is it?</strong></p>
     <p>Paleomagnetism is the study of the record of Earth's magnetic field preserved in rocks, sediments, and archaeological materials. Magnetic minerals (like magnetite) in igneous and sedimentary rocks align themselves with the Earth's magnetic field at the time of their formation, preserving the direction and intensity of the field.</p>
@@ -142,7 +145,7 @@ function MagneticPoleAnomaly(){
 </div>
 {/* <div style={{border:"solid", borderColor:"blue", padding:"15px"}}><ReversingCore/></div> */}
    <br></br>
-   <div style={{border:"solid", borderColor:"red"}}>
+   <div style={{backgroundColor:"white",border:"solid", borderColor:"red", borderRadius:"10px",padding:"15px"}}>
    <div>
     <p><strong>The Great Dying: What happened:</strong></p>
     <p>The largest extinction event in Earth's history, with over 90% of marine species and 70% of terrestrial species wiped out. This event is linked to massive volcanic eruptions (Siberian Traps), resulting in global warming, ocean acidification, and anoxia.</p>
