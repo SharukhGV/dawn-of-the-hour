@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import hrdiagram from "../../assets/hrdiagram.png"
+import lights from "../../assets/lights.jpg"
 const SunLifeCycle = () => {
   return (
     <>
@@ -55,6 +56,12 @@ const SunLifeCycle = () => {
       <h3 style={{ color: '#303f9f' }}>What is the Solar Maximum</h3>
 
 <p>Solar maximums occur due to the Sun's complex magnetic field dynamics, which go through an approximately 11-year cycle. During a solar maximum, heightened solar activity happens because the Sun's magnetic field becomes highly distorted and tangled, causing an increase in sunspots, solar flares, and coronal mass ejections (CMEs). As the Sun’s magnetic field lines twist and reconnect, this intense magnetic activity releases enormous amounts of energy, leading to more frequent and powerful solar events. The heightened activity also results from the Sun reversing its magnetic poles at the peak of the cycle, further driving disruptions and increasing solar emissions. These fluctuations contribute to more intense radiation, influencing space weather and sometimes affecting Earth’s magnetic environment.</p>
+
+
+<img style={{maxWidth:"500px"}} src={lights}></img>
+<br></br>
+<br></br>
+<em>Northern Lights are a byproduct of Solar Activity</em>
 
       <section style={{ marginTop: '20px', backgroundColor: 'white', padding: '20px', borderRadius: '5px' }}>
         <h3 style={{ color: '#303f9f' }}>Current Solar Maximum and Activity Anomaly</h3>
