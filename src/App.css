@@ -1,107 +1,79 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  background-color: #121212;
+  color: white;
+  font-family: sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #1f1f1f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.touch-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
 }
 
-.card {
-  padding: 2em;
+.list-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 5px;
 }
 
-.read-the-docs {
+.quake-card {
+  display: flex;
+  align-items: center;
+  background: #222;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 5px solid #444;
+}
+
+.mag {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 50px;
+}
+
+.info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.place {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.time {
+  font-size: 0.7rem;
   color: #888;
 }
 
-
-.earth-rotation-speed {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.table-container {
-  overflow-x: auto;
-  margin-bottom: 20px;
-}
-
-table {
+.refresh-bar {
   width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-.chart-container {
-  height: 400px;
-}
-
-/* Media query for tablets */
-@media only screen and (max-width: 768px) {
-  .earth-rotation-speed {
-    padding: 15px;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .chart-container {
-    height: 300px;
-  }
-}
-
-/* Media query for mobile phones */
-@media only screen and (max-width: 480px) {
-  .earth-rotation-speed {
-    padding: 10px;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  th, td {
-    padding: 5px;
-  }
-
-  .chart-container {
-    height: 250px;
-  }
+  padding: 15px;
+  background: #0066cc;
+  border: none;
+  color: white;
+  font-weight: bold;
 }
